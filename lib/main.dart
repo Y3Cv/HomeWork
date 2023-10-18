@@ -37,7 +37,9 @@ class _MyHomePageState extends State<MyHomePage> {
                   margin: EdgeInsets.all(8),
                   width: 100,
                   height: 300,
-                )),
+                  child: Text(
+                    '1', style: TextStyle(color: Colors.red, fontSize: 35),
+                ))),
 
                 Flexible(
                 flex: 1,
@@ -48,7 +50,9 @@ class _MyHomePageState extends State<MyHomePage> {
                   margin: EdgeInsets.all(8),
                   width: 100,
                   height: 300,
-                ))])),
+                    child: Text(
+                        '2', style: TextStyle(color: Colors.yellow, fontSize: 35)
+                )))])),
 
 
 
@@ -66,8 +70,10 @@ class _MyHomePageState extends State<MyHomePage> {
                   color: Colors.blue,
                   margin: EdgeInsets.all(8),
                   width: 100,
-                  height: 100,
-                )),
+                  height: 70,
+                    child: Text(
+                        '3', style: TextStyle(color: Colors.grey, fontSize: 35)
+                ))),
 
                 Flexible(
                 flex: 1,
@@ -78,8 +84,10 @@ class _MyHomePageState extends State<MyHomePage> {
                   color: Colors.red,
                   margin: EdgeInsets.all(8),
                   width: 100,
-                  height: 100,
-                ))])),
+                  height: 70,
+                    child: Text(
+                        '4', style: TextStyle(color: Colors.white, fontSize: 35)
+                )))])),
     Flexible(
     flex: 1,
 
@@ -94,8 +102,10 @@ class _MyHomePageState extends State<MyHomePage> {
                   color: Colors.greenAccent,
                   margin: EdgeInsets.all(8),
                   width: 100,
-                  height: 100,
-                )),
+                  height: 70,
+                    child: Text(
+                        '5', style: TextStyle(color: Colors.purpleAccent, fontSize: 35)
+                ))),
 
                 Flexible(
                   flex: 1,
@@ -106,8 +116,10 @@ class _MyHomePageState extends State<MyHomePage> {
                   color: Colors.yellow,
                   margin: EdgeInsets.all(8),
                   width: 100,
-                  height: 100,
-                ))])),
+                  height: 70,
+                    child: Text(
+                        '6', style: TextStyle(color: Colors.deepOrange, fontSize: 35)
+                )))])),
 
       Flexible(
         flex: 1,
@@ -126,7 +138,9 @@ class _MyHomePageState extends State<MyHomePage> {
                   margin: EdgeInsets.all(8),
                   width: 100,
                   height: 300,
-                )),
+                    child: Text(
+                        '7', style: TextStyle(color: Colors.greenAccent, fontSize: 35)
+                ))),
 
                 Flexible(
                   flex: 1,
@@ -138,7 +152,9 @@ class _MyHomePageState extends State<MyHomePage> {
                   margin: EdgeInsets.all(8),
                   width: 100,
                   height: 300,
-                ))])),
+                    child: Text(
+                        '8', style: TextStyle(color: Colors.deepPurpleAccent, fontSize: 35)
+                )))])),
         ],
       ),
     );
